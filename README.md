@@ -1,4 +1,5 @@
 # PDM_practicas
 
-## Nombre: 
+## Nombres: 
 Marcos Julián Noriega Rodríguez
+Brenda Paola Reséndiz Mendoza
