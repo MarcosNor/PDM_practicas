@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Fondo04"
+    android:gravity="top"
+    ndroid:scrollbars="vertical"
+    android:padding="40dp">
+
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/titulo"
+            android:textColor="@color/black"
+            android:textSize="20pt"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextViewInstrucciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/instrucciones"
+            android:textColor="@color/black"
+            android:textSize="10pt">
+        </TextView>
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_height="wrap_content"
+            android:hint="Escriba su nombre"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_height="wrap_content"
+            android:hint="Escriba su email"
+            android:inputType="textEmailAddress"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de cumpleaños:"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

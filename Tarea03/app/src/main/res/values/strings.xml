@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tarea02</string>
+    <string name="titulo">¡Bienvenido!</string>
+    <string name="instrucciones">Ingrese sus datos</string>
+</resources>
