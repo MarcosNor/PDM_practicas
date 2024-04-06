@@ -1,5 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Tarea02</string>
+    <string name="app_name">Tarea03</string>
     <string name="titulo">¡Bienvenido!</string>
     <string name="instrucciones">Ingrese sus datos</string>
+    feedbacktype
+    <string name="feedbacktype">Seleccione una</string>
+    <string name="feedbacktype1">Pollo</string>
+    <string name="feedbacktype2">Carne</string>
+    <string name="feedbacktype3">Vegana</string>
+    <string name="feedbacktype4">Pastor</string>
+
+
 </resources>

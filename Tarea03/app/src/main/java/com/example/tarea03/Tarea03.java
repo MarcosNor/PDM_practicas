@@ -1,4 +1,4 @@
-package com.example.tarea02;
+package com.example.tarea03;
 
 /**
  * Creado por Marcos Julián Noriega Rodríguez 4/3/24
@@ -7,12 +7,12 @@ package com.example.tarea02;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class HolaTodos extends Activity{
+public class Tarea03 extends Activity{
 
-    //@Override
+    //@Overridea
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_layout);
+        setContentView(R.layout.layout01);
     }
 }

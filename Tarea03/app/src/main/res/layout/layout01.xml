@@ -4,7 +4,7 @@
     android:id="@+id/ScrollView01"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Fondo04"
+    android:background="@drawable/fondo04"
     android:gravity="top"
     android:scrollbars="vertical"
     android:padding="40dp">
@@ -94,20 +94,20 @@
             android:textColor="@color/black"
             android:backgroundTint="@color/box" />
 
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acepto los términos y condiciones"
+            android:textColor="@color/black"
+            android:checked="true"
+            android:padding="8dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="30dp"> <!-- Margen superior opcional -->
-
-            <Button
-                android:id="@+id/buttonSend"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Enviar Datos"
-                android:layout_weight="1"
-                android:backgroundTint="#82E0AA"
-                android:layout_marginEnd="8dp" /> <!-- Margen opcional -->
+            android:layout_marginTop="15dp">
 
             <Button
                 android:id="@+id/buttonBack"
@@ -116,7 +116,16 @@
                 android:text="Regresar"
                 android:layout_weight="1"
                 android:backgroundTint="#EDBB99"
-                android:layout_marginStart="8dp" /> <!-- Margen opcional -->
+                android:layout_marginStart="8dp" />
+
+            <Button
+                android:id="@+id/buttonSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar Datos"
+                android:layout_weight="1"
+                android:backgroundTint="#82E0AA"
+                android:layout_marginEnd="8dp" />
 
         </LinearLayout>
 
