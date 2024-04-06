@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/Fondo04"
     android:gravity="top"
-    ndroid:scrollbars="vertical"
+    android:scrollbars="vertical"
     android:padding="40dp">
 
 
@@ -42,6 +42,8 @@
             android:layout_height="wrap_content"
             android:hint="Escriba su nombre"
             android:inputType="textPersonName"
+            android:backgroundTint="@color/box"
+            android:layout_marginTop="20dp"
             android:layout_width="fill_parent">
         </EditText>
 
@@ -50,6 +52,8 @@
             android:layout_height="wrap_content"
             android:hint="Escriba su email"
             android:inputType="textEmailAddress"
+            android:backgroundTint="@color/box"
+            android:layout_marginTop="20dp"
             android:layout_width="fill_parent">
         </EditText>
 
@@ -57,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fecha de cumpleaños:"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="25dp"
             android:textSize="20sp"
             android:textColor="@color/black"
             android:layout_gravity="center"/>
@@ -67,7 +71,54 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:calendarViewShown="false"
+            android:layout_marginTop="16dp"
             android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/box" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirme su contraseña"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/box" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"> <!-- Margen superior opcional -->
+
+            <Button
+                android:id="@+id/buttonSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar Datos"
+                android:layout_weight="1"
+                android:backgroundTint="#82E0AA"
+                android:layout_marginEnd="8dp" /> <!-- Margen opcional -->
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:layout_weight="1"
+                android:backgroundTint="#EDBB99"
+                android:layout_marginStart="8dp" /> <!-- Margen opcional -->
+
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
