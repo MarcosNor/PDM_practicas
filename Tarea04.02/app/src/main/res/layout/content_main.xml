@@ -72,7 +72,7 @@
                 android:textSize="10pt" />
 
             <CheckBox
-                android:id="@+id/checkbox_meat"
+                android:id="@+id/checkbox_jitomate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -80,35 +80,35 @@
                 android:textColor="@color/black" />
 
             <CheckBox
-                android:id="@+id/checkbox_meat"
+                android:id="@+id/checkbox_lechuga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lechuga"
                 android:textColor="@color/black" />
 
             <CheckBox
-                android:id="@+id/checkbox_cheese"
+                android:id="@+id/checkbox_pepinillos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pepinillos"
                 android:textColor="@color/black" />
 
             <CheckBox
-                android:id="@+id/checkbox_meat"
+                android:id="@+id/checkbox_cebolla"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cebolla"
                 android:textColor="@color/black" />
 
             <CheckBox
-                android:id="@+id/checkbox_meat"
+                android:id="@+id/checkbox_chile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Chile"
                 android:textColor="@color/black" />
 
             <CheckBox
-                android:id="@+id/checkbox_meat"
+                android:id="@+id/checkbox_queso_extra"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Queso extra (+ $100)"

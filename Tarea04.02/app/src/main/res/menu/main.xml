@@ -8,7 +8,7 @@
             android:title="@string/lugares" />
         <item
             android:id="@+id/accion_bebidas"
-            android:icon="Horario"
+            android:icon="@drawable/reloj"
             android:title="@string/horario" />
         <item
             android:id="@+id/accion_ubicacion"
