@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.droidcafe.MainActivity">
+
+    <item android:title="@string/opcion_menu1"
+        android:id="@+id/ocion1" />
+    <item android:title="@string/opcion_menu2"
+        android:id="@+id/opcion2" />
+    <item android:title="@string/opcion_menu3"
+        android:id="@+id/opcion3" />
+</menu>

@@ -24,3 +24,19 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.tarea04", appContext.getPackageName());
     }
 }
+
+/*
+    public static class MyActivity extends AppCompatActivity {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.layout01);
+
+            Toolbar toolbar = findViewById(R.id.toolbar);
+            setSupportActionBar(toolbar);
+        }
+
+        private void setSupportActionBar(Toolbar toolbar) {
+
+        }
+    } */
