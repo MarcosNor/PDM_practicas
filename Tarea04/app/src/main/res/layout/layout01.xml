@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ScrollView01"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo04"
-    android:gravity="top"
-    android:scrollbars="vertical"
-    android:padding="40dp">
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="@drawable/fondo04"
+        android:gravity="top"
+        android:padding="40dp"
+        android:scrollbars="vertical">
 
 
     <LinearLayout
@@ -130,4 +140,5 @@
         </LinearLayout>
 
     </LinearLayout>
-</ScrollView>
+    </ScrollView>
+</RelativeLayout>
